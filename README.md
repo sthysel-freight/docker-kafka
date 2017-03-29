@@ -33,7 +33,7 @@ play with, in ./docker:
 $ docker-compose up
 ```
 
-Be sure to export `KAFKA\_HOST=192.168.1.20` everywhere.
+Be sure to export `KAFKA_HOST=192.168.1.20` everywhere.
 
 Use the helper scripts to make a few topics:
 
@@ -59,3 +59,5 @@ $ ./addmessage.sh wortel
 If I shall exist eternally, how shall I exist tomorrow?
 A man of action forced into a state of thought is unhappy until he can get out of it.
 One of the first signs of the beginning of understanding is the wish to die.
+
+```
