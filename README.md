@@ -9,6 +9,8 @@
 
 Provides Kafka and Zookeeper in Docker.
 
+[![Codefresh build status]( https://g.codefresh.io/api/badges/build?repoOwner=sthyselfreight&repoName=docker-kafka&branch=master&pipelineName=docker-kafka&accountName=sthysel&type=cf-1)]( https://g.codefresh.io/repositories/sthyselfreight/docker-kafka/builds?filter=trigger:build;branch:master;service:58dbceb7d09aab0100c70825~docker-kafka)
+
 
 The main hurdle of running Kafka in Docker is that it depends on Zookeeper.
 This container runs both Zookeeper and Kafka in the same container. This means:
