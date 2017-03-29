@@ -1,0 +1,10 @@
+version: '2'
+services:
+  kafka:
+    image: sthysel/kafka
+    ports:
+      - "2181:2181"
+      - "9092:9092"
+    environment:
+      ADVERTISED_HOST: 192.168.1.20
+      ADVERTISED_PORT: 9092
